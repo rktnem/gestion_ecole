@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.4" prefWidth="1116.0" styleClass="list-student" stylesheets="@../../style/student/student.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="1116.0">
+         <children>
+            <ChoiceBox prefWidth="150.0" />
+            <TextField prefHeight="37.0" prefWidth="305.0" promptText="Recherche élève..." styleClass="input-search" />
+         </children>
+      </HBox>
+      <TableView prefHeight="751.0" prefWidth="1278.0">
+        <columns>
+          <TableColumn prefWidth="200.0" text="Nom" />
+          <TableColumn minWidth="6.4000244140625" prefWidth="230.0" text="Prénoms" />
+            <TableColumn text="Matricule" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Janvier" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Fevrier" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Mars" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Avril" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Mai" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Juin" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Juillet" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Août" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Septembre" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Octobre" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Novembre" />
+            <TableColumn minWidth="40.0" prefWidth="45.0" text="Decembre" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

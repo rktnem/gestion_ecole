@@ -1,5 +1,6 @@
 package application;
 
+import helper.Helper;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,10 +11,19 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		Helper helper = new Helper();
+		
+		
 		// TODO Auto-generated method stub
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("/view/home/home.fxml"));               
+			Parent root = FXMLLoader.load(getClass().getResource("/view/root/root.fxml"));               
 			Scene scene = new Scene(root);
+			
+			// Initialize all stylesheet
+			helper.loadStylesheet("/style/partials/sidebar.css", scene);
+			helper.loadStylesheet("/style/home/home.css", scene);
+			helper.loadStylesheet("/style/student/student.css", scene);
+			
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {

@@ -1,3 +1,7 @@
+BorderPane .content-section {
+	-fx-background-color:  #E8EFF0;
+}
+
 .home-box {
 	-fx-background-color: white;
 	-fx-background-radius: 10px;
