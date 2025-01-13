@@ -1,0 +1,17 @@
+.scroll-pane {
+	-fx-background-color: #0C444F;
+}
+.sidebar-item {
+	-fx-background-color:  #0C444F;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+	-fx-alignment: center-left;
+	-fx-padding: 0 0 0 35px;
+	-fx-graphic-text-gap: 25px;
+}
+.sidebar-item:hover {
+	-fx-background-color: #126171;
+}
+.sidebar-item.active {
+	-fx-background-color: #126171;
+}

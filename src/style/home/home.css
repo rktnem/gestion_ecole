@@ -1,0 +1,84 @@
+.home-box {
+	-fx-background-color: white;
+	-fx-background-radius: 10px;
+	-fx-padding: 15px 35px;	
+}
+
+.dashboard-item {
+	-fx-border-color: #EFEFEF;
+	-fx-border-radius: 7px;
+	-fx-padding: 15px;
+}
+.dashboard-item Pane {
+	-fx-background-radius: 50%;
+}
+.home-box > HBox VBox {
+	-fx-spacing: 15px;
+}
+.dashboard-item Label {
+	-fx-text-fill: grey;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-padding: 0 10px 0 20px
+}
+.dashboard-item .sublabel {
+	-fx-text-fill: grey;
+	-fx-font-size: 14px;
+	-fx-padding: 0px;
+}
+
+.home-menu {
+	-fx-padding: 35px;
+	-fx-spacing: 100px;
+}
+.home-menu .item-menu {
+	-fx-background-color: white;
+	-fx-background-radius: 10px;
+}
+.home-menu .item-menu .item-body {
+	-fx-background-color:  #0C444F;
+	-fx-background-radius:  10px 10px 0 0;
+}
+.home-menu .item-menu Label {
+	-fx-alignment: center;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.home-menu .item-menu VBox {
+	-fx-padding: 5px 10px;
+}
+.home-menu .item-menu Button {
+	-fx-background-color:  #DFAC09;	
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.home-menu .item-menu Button:hover {
+	-fx-background-color:  #CFA00A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
